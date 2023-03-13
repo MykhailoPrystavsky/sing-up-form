@@ -1,0 +1,164 @@
+.box{
+    width: 550px;
+    height: 550px;
+    border:1px solid #000;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.head{
+    height: 70px;
+    margin: 0;
+    background-color: rgb(4, 170, 109);
+    border-radius: 10px 10px  0 0 ;
+    color: white;  
+    font-size: 1.6em;
+    font-family: sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.singUp{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.first-container{
+    margin-top: 20px;
+}
+p{
+    margin-bottom: 5px;
+}
+
+input.name,input.surname,input.email{
+    width: 99%;
+    height: 30px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+.second-container{
+    margin-top: 15px;
+}
+
+.third-container{
+    margin-top: 20px;
+}
+
+.select{
+    width: 100%;
+    height: 35px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+/* input.check{
+   margin-bottom: 0;
+} */
+
+input[type="checkbox"]{
+
+    margin-top: 20px;
+    background-color: saddlebrown;
+}
+
+
+
+input.singUp-btn{
+    width: 430px;
+    height: 40px;
+    color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+
+    margin:  30px auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+input[type="button"]:disabled {
+    background:rgb(4, 170, 109);
+  }
+
+/**********************entrance**********************/
+
+.entrance{
+    position: relative;
+    width: 440px;
+    height: 480px;
+    border: 1px solid #000;
+    border-radius:  10px;
+
+    margin: 50px auto;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 110px;
+    background-color:rgb(28, 192, 137);
+    border-radius: 10px 10px 0 0;
+    
+}
+
+
+
+input.SingOut{
+    display: block;
+    width: 135px;
+    height: 40px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid rgb(28, 192, 137);
+    font-size: large;
+    color: rgb(28, 192, 137);
+
+    margin:  auto;
+    
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-image: url('');
+}
+
+.link{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(28, 192, 137);
+    border-radius: 0 0 10px 10px;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    fill: white;  
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
